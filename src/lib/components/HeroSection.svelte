@@ -11,4 +11,15 @@
         <img class="book-cover" src={bookCover} alt="">
         <img class="phone-cover" src={phoneCover} alt="">
     </div>
+    <div class="hero-text white text-center">
+        <h1>THIS EBOOK WILL</h1>
+        <h1>SAVE YOU MONEY,</h1>
+        <h1 class="mb-m">TIME & NERVES</h1>
+        <p class="light-grey">
+            I moved to Spain seven years ago. The process was painful and difficult. I
+            learned most things the hard way: finding a job, getting a visa,
+            calculating my cost of living, choosing an apartment. That's why I wrote
+            this e-book, to tell you how I did it. No bullshit, no stress.
+        </p>
+    </div>
 </section>
