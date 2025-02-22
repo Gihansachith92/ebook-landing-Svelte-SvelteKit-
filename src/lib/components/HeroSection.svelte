@@ -16,7 +16,7 @@
         <h1>THIS EBOOK WILL</h1>
         <h1>SAVE YOU MONEY,</h1>
         <h1 class="mb-m">TIME & NERVES</h1>
-        <p class="light-grey mb-l">
+        <p class="light-grey mb-s">
             I moved to Spain seven years ago. The process was painful and difficult. I
             learned most things the hard way: finding a job, getting a visa,
             calculating my cost of living, choosing an apartment. That's why I wrote
@@ -49,22 +49,22 @@
 
     .hero-text{
         padding: 100px 5%;
-        width: 70%; 
+        width: 50%; 
         background-color: black;
     }
 
 
     .book-cover{
         position: absolute;
-        right: 2%;
+        right: 10%;
         bottom: 0;
-        width: 55%;
-        transform: translateY(30%);
+        width: 52%;
+        transform: translateY(35%);
     }
 
     .phone-cover{
         position: absolute;
-        width: 35%;
+        width: 25%;
         bottom: 0;
         right: 52%;
         transform: translateY(25%);
