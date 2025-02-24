@@ -30,3 +30,31 @@
 		</div>
 	</div>
 </section>
+
+<style>
+	.chapter-preview{
+		padding: 80px 0;
+		margin-left: 12vw;
+		margin-right: 12vw;
+		max-width: 1350px;
+	}
+
+	.chapter-container{
+		display: flex;
+		justify-content: space-between;
+	}
+
+
+  .chapter-container ul{
+		width: 43%;
+	}
+
+	.chapter-info{
+		width: 53%;
+	}
+
+	.chapter-title{
+		
+	}
+
+</style>
