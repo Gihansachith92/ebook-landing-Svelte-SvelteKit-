@@ -35,6 +35,11 @@
     },
   ];
 
+	let selectedChapterNumber = $state(1);
+	function selectChapter(chapter){
+		selectedChapterNumber = chapter.number;
+	}
+
 </script>
 
 <section class="chapter-preview default-margin">
@@ -43,7 +48,10 @@
 		<ul>
 			{#each chapters as chapter}
 			<li>
-				<button class="chapter-title selected-chapter-title" aria-controls={`chapter-info-${chapter.number}`} aria-expanded="true">
+				<button class="chapter-title" 
+				  class:selected-chapter-title = {selectedChapterNumber === chapter.number}
+				  aria-controls={`chapter-info-${chapter.number}`} aria-expanded={selectedChapterNumber === chapter.number} 
+					onclick={()=> selectChapter(chapter)}>
 					<h3>Chapter {chapter.number}: {chapter.title}</h3>
 				</button>
 			</li>
