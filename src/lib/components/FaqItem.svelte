@@ -1,16 +1,13 @@
 <script>
   import chevronDown from "$assets/icons/chevron-down.svg";
+	let {faq,isExpanded, ...props} = $props();
 </script>
 
-<button class="container">
+<button class="container" class:container-expanded={isExpanded} {...props}>
 	<div class="question-and-answer">
-		<p class="question mb-s">what usn hshh snsjsjsm?</p>
+		<p class="question mb-s">{faq.question}</p>
 		<p class="answer">
-			Lorem, ipsum dolor sit amet consectetur adipisicing elit. At architecto blanditiis corporis
-			dicta deleniti accusamus, corrupti fugit! Tenetur corporis autem laboriosam rem. Veniam
-			repellendus incidunt voluptatem laborum suscipit pariatur excepturi fugit cum, necessitatibus
-			odit nisi asperiores sapiente ex ratione molestiae officia quaerat perferendis voluptate eos
-			deleniti nostrum ipsa rem similique!
+			{faq.answer}
 		</p>
 	</div>
   <img src={chevronDown} alt="">
