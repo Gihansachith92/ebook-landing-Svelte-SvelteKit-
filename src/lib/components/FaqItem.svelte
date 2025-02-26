@@ -15,3 +15,11 @@
 	</div>
   <img src={chevronDown} alt="">
 </button>
+
+<style>
+   .container{
+		display: flex;
+		justify-content: space-between;
+	 }
+
+</style>

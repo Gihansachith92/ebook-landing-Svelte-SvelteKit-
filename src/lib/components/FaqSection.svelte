@@ -18,3 +18,28 @@
     </a>
   </div>
 </section>
+
+<style>
+  .faq-section{
+    padding: 80px 0;
+    margin-left: 12vw;
+    margin-right: 20vw;
+    max-width: 1150px;
+  }
+
+  .additional-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: gray;
+  }
+
+  .twitter-icon{
+    width: 16px;
+    height: 16px;
+  }
+
+  a{
+    text-decoration: underline;
+  }
+</style>
